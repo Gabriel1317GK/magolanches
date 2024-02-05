@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<head>
+
+  <style>
+
+    /* Estilo do corpo da página */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    /* Estilo do cabeçalho da página */
+    .header {
+      width: 100%;
+      height: 100px;
+      background-color: #f0b513;
+      color: white;
+      display: flex;
+      align-items: center;
+      font-size: certer;
+      
+      padding: 20px;
+    }
+
+    /* Estilo do logo da lanchonete */
+    .logo {
+      width: 300px;
+      height: 140px;
+    }
+
+    /* Estilo do menu de navegação */
+    .nav {
+      list-style: none;
+      display: flex;
+    }
+
+    /* Estilo dos itens do menu de navegação */
+    .nav li {
+      margin: 0 10px;
+      font-size: center;
+    }
+
+    /* Estilo dos links do menu de navegação */
+    .nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Estilo do conteúdo principal da página */
+    .main {
+      width: 80%;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    /* Estilo dos cards dos produtos */
+    .card {
+      border: 1px solid #ccc;
+      background-color: #fff;
+      padding: 10px;
+    }
+
+    /* Estilo das imagens dos produtos */
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    /* Estilo dos nomes dos produtos */
+    .card h3 {
+      margin: 10px 0;
+      color: #0078d4;
+      font-size: 20px;
+    }
+
+    /* Estilo dos preços dos produtos */
+    .card p {
+      margin: 10px 0;
+      color: #199319;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    /* Estilo do rodapé da página */
+    .footer {
+      width: 100%;
+      height: 100px;
+      background-color: #0670fa;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="header">
+    <img src="imagem/mago.jpeg" alt="Logo da lanchonete" class="logo">
+    <ul class="nav">
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Cardápio</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </div>
+  
+  <div class="main">
+    <div class="card">
+      <img src="imagem/sanduiche na chapa.jpg" alt="Sanduiche na Chapa">
+      <h3>Hambúrguer Artesanal</h3>
+      <p>R\$ 15,00</p>
+    </div>
+
+    <div class="card">
+      <img src="imagem/pastel.jpg" alt="Pastel">
+      <h3>Pizza de Calabresa</h3>
+      <p>R\$ 25,00</p>
+    </div>
+
+    <div class="card">
+      <img src="imagem/coxinha.jpg" alt="Coxinha">
+      <h3>Coxinha de Frango</h3>
+      <p>R\$ 5,00</p>
+    </div>
+
+    <div class="card">
+      <img src="imagem/batatinha.jpg" alt="Batata Frita">
+      <h3>Batata Frita</h3>
+      <p>R\$ 10,00</p>
+    </div>
+
+    <div class="card">
+      <img src="imagem/Refrigerante.png" alt="Refrigerante">
+      <h3>Refrigerante Lata</h3>
+      <p>R\$ 3,00</p>
+    </div>
+
+    <div class="card">
+      <img src="imagem/suco.jpg" alt="Suco Natural">
+      <h3>Suco Natural</h3>
+      <p>R\$ 4,00</p>
+    </div>
+  </div>
+
+  <div class="footer"> 
+    <p><b>Mago Lanche - Todos os direitos reservados</b></p>
+  </div>
+
+</body>
+
+</html>
